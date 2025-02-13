@@ -128,13 +128,14 @@ plt.xlabel('Actual Prices')
 plt.ylabel('Predicted Prices')
 plt.legend()
 plt.grid(True)
+plt.savefig("actual_vs_predicted.png", dpi=300, bbox_inches = 'tight')
 plt.show()
 
+import os
+os.listdir()
 
 # In[56]:
 
 
-plt.savefig("actual_vs_predicted.png", dpi=300, bbox_inches = 'tight')
-import os
-os.listdir()
+
 
